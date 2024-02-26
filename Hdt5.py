@@ -39,8 +39,9 @@ def simular(env, param):
 # Cambiar a procesos
         
 env = sympy.Environment()
-track = sympy.Resource(env, capacity=1)  # Define the race track as a shared resource
+cpu = sympy.Resource(env, capacity=100) 
+ram = sympy.Resource(env, capacity=100)# Define the race track as a shared resource
 print("Llamada a simular")
-env.process(simular(env, track))
+env.process(simular(env, cpu))
 
 env.run()
