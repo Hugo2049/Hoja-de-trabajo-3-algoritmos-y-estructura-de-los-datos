@@ -22,3 +22,12 @@ Para ejecutar el código y generar las gráficas, simplemente ejecutar el códig
 Notas
 El código utiliza una semilla aleatoria (RANDOM_SEED) para garantizar la reproducibilidad de los resultados
 Cada gráfica se genera realizando 10 simulaciones para obtener un promedio más confiable del tiempo promedio en el sistema, ya que no me dejó hacer la gráfica por proceso individual, que no lograba que se mostrara bien la gráfica
+
+
+Cómo mejorar el rendimiento:
+
+La asignación de recursos: Asignar más recursos al momento de correr los procesos.
+
+Optimizar los tiempos de los procesos: El algoritmo de planificación determina cómo se asigna el tiempo de la CPU entre los procesos en ejecución. 
+
+Aumento de la capacidad de la memoria RAM: Incrementar la cantidad de memoria RAM disponible para los procesos.
